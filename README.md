@@ -4,6 +4,10 @@
   per avviare l'applicativo eseguire nella cartella principale:
   
   ```console
+  npm install
+  ```
+  
+  ```console
   npm start
   ```
 

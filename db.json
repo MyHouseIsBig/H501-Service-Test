@@ -1,0 +1,22 @@
+{
+  "appointments": [
+    {
+      "date": "2024-11-22T23:00:00.000Z",
+      "time": "11:00",
+      "customerName": "Ciao",
+      "address": "Via rotonda 11",
+      "city": "Como",
+      "cost": 100,
+      "id": 3
+    },
+    {
+      "date": "2024-11-21T23:00:00.000Z",
+      "time": "10:00",
+      "customerName": "Giulio Rossi",
+      "address": "Via quadrata 10",
+      "city": "Reggio Emilia",
+      "cost": 250,
+      "id": 4
+    }
+  ]
+}

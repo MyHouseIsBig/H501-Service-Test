@@ -1,0 +1,103 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Global */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Container */
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Table */
+.mat-elevation-z8 {
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.mat-mdc-table {
+    width: 100%;
+    background: white;
+}
+
+.mat-mdc-header-cell {
+    font-weight: 600;
+    color: #1a237e;
+    font-size: 14px;
+}
+
+.mat-mdc-cell {
+    color: #424242;
+    font-size: 14px;
+}
+
+.mat-mdc-row:hover {
+    background-color: #f5f5f5;
+}
+
+/* Form field */
+.mat-mdc-form-field {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Button */
+.mat-mdc-raised-button {
+    height: 45px;
+    font-size: 16px;
+}
+
+/* Actions cell */
+.actions-cell {
+    display: flex;
+    gap: 8px;
+}
+
+/* Toolbar */
+.mat-toolbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Headings */
+h1 {
+    color: #1a237e;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+}
